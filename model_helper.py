@@ -60,7 +60,7 @@ def predict(image_path):
 
     if trained_model is None:
         trained_model = FruitCNNResNet()
-        trained_model.load_state_dict(torch.load("model/saved_model.pth", map_location=torch.device('mps')))
+        trained_model.load_state_dict(torch.load("model/saved_model.pth", map_location=torch.device('cuda')))
         trained_model.eval()
 
     with torch.no_grad():
@@ -70,4 +70,4 @@ def predict(image_path):
     
 
 if __name__ == "__main__":
-    print(predict("/Users/prajwal/ATLIQ/Virtual_Internship_2/FRUIT-16K/F_Tomato/3.jpg"))
+    print(predict("FRUIT-16K/F_Tomato/3.jpg"))
