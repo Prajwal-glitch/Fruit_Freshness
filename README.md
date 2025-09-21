@@ -2,7 +2,7 @@
 
 A deep learning-powered application that **classifies fresh vs. stale fruits** across multiple categories.  
 Built with **PyTorch**, **ResNet50 (Transfer Learning)**, and **Streamlit**.  
-Live Demo – https://prajwal-glitch-fruit-freshness-detection.streamlit.app/  
+Live Demo – https://prajwal-glitch-fruit-freshness-main-mto5lf.streamlit.app/
 
 ---
 
